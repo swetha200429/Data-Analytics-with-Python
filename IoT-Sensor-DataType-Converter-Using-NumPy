@@ -1,0 +1,25 @@
+import numpy as np
+temperature_int=np.array([30,56,34,90,78])
+print("Integer Temperature:",temperature_int)
+print("Data Type:",temperature_int.dtype)
+temperature_float = temperature_int.astype('f')
+print("\nConverted to Float:", temperature_float)
+print("Data Type:", temperature_float.dtype)
+high_temp=temperature_float>30
+print("\nHigh Temperature Flags:",high_temp)
+print("Data Type:",high_temp.dtype)
+print("\nMemory Used (int):", temperature_int.nbytes, "bytes")
+print("Memory Used (float):", temperature_float.nbytes, "bytes")
+
+Output:
+Integer Temperature: [30 56 34 90 78]
+Data Type: int64
+
+Converted to Float: [30. 56. 34. 90. 78.]
+Data Type: float32
+
+High Temperature Flags: [False  True  True  True  True]
+Data Type: bool
+
+Memory Used (int): 40 bytes
+Memory Used (float): 20 bytes
