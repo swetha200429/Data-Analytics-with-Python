@@ -1,0 +1,40 @@
+import numpy as np
+sales=np.array([
+    [2000,4300,8900,1200],
+    [4900,7689,2134,4300],
+    [3000,5488,1990,5000],
+    [6800,5433,7666,1999]
+])
+print("Full Sales Data:\n",sales)
+q1=sales[0:2]
+print("\nFirst 2 months:\n",q1)
+q2=sales[-3:]
+print("\nLast 3 months:\n",q2)
+q3=sales[:,1]
+print("\nProduct 2 Sales:\n",q3)
+subset=sales[0:3,0:1]
+print("\nSubset Data:\n",subset)
+
+Output:
+Full Sales Data:
+ [[2000 4300 8900 1200]
+ [4900 7689 2134 4300]
+ [3000 5488 1990 5000]
+ [6800 5433 7666 1999]]
+
+First 2 months:
+ [[2000 4300 8900 1200]
+ [4900 7689 2134 4300]]
+
+Last 3 months:
+ [[4900 7689 2134 4300]
+ [3000 5488 1990 5000]
+ [6800 5433 7666 1999]]
+
+Product 2 Sales:
+ [4300 7689 5488 5433]
+
+Subset Data:
+ [[2000]
+ [4900]
+ [3000]]
