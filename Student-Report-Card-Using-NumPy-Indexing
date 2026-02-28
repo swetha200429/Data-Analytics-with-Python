@@ -1,0 +1,27 @@
+import numpy as np
+marks=np.array([
+    [75,75,90],
+    [84,78,46],
+    [67,90,76],
+    [90,98,96]
+])
+print("All Marks:\n",marks)
+print("First Rank:\n",marks[3])
+print("Second Rank:\n",marks[2])
+print("Third Rank:\n",marks[1])
+print("Last Rank:\n",marks[0])
+
+Output:
+All Marks:
+ [[75 75 90]
+ [84 78 46]
+ [67 90 76]
+ [90 98 96]]
+First Rank:
+ [90 98 96]
+Second Rank:
+ [67 90 76]
+Third Rank:
+ [84 78 46]
+Last Rank:
+ [75 75 90]
