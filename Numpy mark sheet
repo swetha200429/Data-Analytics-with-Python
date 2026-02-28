@@ -1,4 +1,4 @@
-import numpy as numpy
+import numpy as np
 roll_num=np.array([1,20])
 salary_range=np.linspace(10000,500000,5)
 attendance=np.zero=((5,3))
