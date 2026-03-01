@@ -1,7 +1,0 @@
-import numpy as np
-aqi=np.array([56,73,29,53,100,78,560,45,89,12])
-print("AQI Values:",aqi)
-polluted_days=aqi[aqi>50]
-print("\nPolluted Days (AQI>50):",polluted_days)
-safe_days=aqi[aqi<40]
-print("Safe Days (AQI<40):",safe_days)
