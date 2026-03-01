@@ -1,0 +1,61 @@
+import numpy as np
+weather=np.array([
+    [35,78,23,56],
+    [65,12,89,45],
+    [67,90,36,87]
+])
+print("Weekly Weather Data:\n",weather)
+print("\nCity-wise temperature:")
+for city in weather:
+    print(city)
+print("\nAll temperature values:")
+for temp in np.nditer(weather):
+    print(temp,end=" ")
+print("\n\nTemperature with position:")
+for index, value in np.ndenumerate(weather):
+    print("City", index[0],"Day",index[1],"=",value)
+print("\nHigh Temperature Days(>20):")
+for temp in np.nditer(weather):
+    if(temp>20):
+        print(temp)
+
+Output:
+Weekly Weather Data:
+ [[35 78 23 56]
+ [65 12 89 45]
+ [67 90 36 87]]
+
+City-wise temperature:
+[35 78 23 56]
+[65 12 89 45]
+[67 90 36 87]
+
+All temperature values:
+35 78 23 56 65 12 89 45 67 90 36 87 
+
+Temperature with position:
+City 0 Day 0 = 35
+City 0 Day 1 = 78
+City 0 Day 2 = 23
+City 0 Day 3 = 56
+City 1 Day 0 = 65
+City 1 Day 1 = 12
+City 1 Day 2 = 89
+City 1 Day 3 = 45
+City 2 Day 0 = 67
+City 2 Day 1 = 90
+City 2 Day 2 = 36
+City 2 Day 3 = 87
+
+High Temperature Days(>20):
+35
+78
+23
+56
+65
+89
+45
+67
+90
+36
+87
