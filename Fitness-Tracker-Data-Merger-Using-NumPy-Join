@@ -1,0 +1,39 @@
+import numpy as np
+steps=np.array([1000,4000,3000,5000,2000])
+heart_rate=np.array([80,85,78,90,98])
+calories=np.array([400,245,346,683,386])
+print("Steps:",steps)
+print("Heart rate:",heart_rate)
+print("Calories:",calories)
+combined_h=np.hstack((steps,heart_rate,calories))
+print("\nHorizontal Stack:\n",combined_h)
+combined_v=np.vstack((steps,heart_rate,calories))
+print("\nVertical Stack:\n",combined_v)
+combined_stack=np.stack((steps,heart_rate,calories),axis=1)
+print("\nStack with axis=1:\n",combined_stack)
+combined_concat=np.concatenate((steps,heart_rate))
+print("\nConcatenate Steps+Heart Rate:\n",combined_concat)
+
+Output:
+Steps: [1000 4000 3000 5000 2000]
+Heart rate: [80 85 78 90 98]
+Calories: [400 245 346 683 386]
+
+Horizontal Stack:
+ [1000 4000 3000 5000 2000   80   85   78   90   98  400  245  346  683
+  386]
+
+Vertical Stack:
+ [[1000 4000 3000 5000 2000]
+ [  80   85   78   90   98]
+ [ 400  245  346  683  386]]
+
+Stack with axis=1:
+ [[1000   80  400]
+ [4000   85  245]
+ [3000   78  346]
+ [5000   90  683]
+ [2000   98  386]]
+
+Concatenate Steps+Heart Rate:
+ [1000 4000 3000 5000 2000   80   85   78   90   98]
