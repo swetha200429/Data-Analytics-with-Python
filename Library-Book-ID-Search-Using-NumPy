@@ -1,0 +1,15 @@
+import numpy as np
+book_ids=np.array([101,445,380,263,537,906])
+print("Library Book IDs:",book_ids)
+search_id=380
+result=np.where(book_ids==search_id)
+print(f"\nBook ID {search_id} found at position:",result[0])
+high_id_books=np.where(book_ids>200)
+print("\nBooks with ID>200 found at position:",high_id_books[0])
+
+Output:
+Library Book IDs: [101 445 380 263 537 906]
+
+Book ID 380 found at position: [2]
+
+Books with ID>200 found at position: [1 2 3 4 5]
