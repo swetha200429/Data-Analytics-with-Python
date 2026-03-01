@@ -5,9 +5,3 @@ polluted_days=aqi[aqi>50]
 print("\nPolluted Days (AQI>50):",polluted_days)
 safe_days=aqi[aqi<40]
 print("Safe Days (AQI<40):",safe_days)
-
-Output:
-AQI Values: [ 56  73  29  53 100  78 560  45  89  12]
-
-Polluted Days (AQI>50): [ 56  73  53 100  78 560  89]
-Safe Days (AQI<40): [29 12]
