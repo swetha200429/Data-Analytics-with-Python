@@ -29,38 +29,73 @@ Matrix operations
 
 📁 Project Structure
 
-numpy-mini-projects/
+Numpy_mini_Project/
 │
-├── project1_array_operations.ipynb
-├── project2_statistics.ipynb
-├── project3_matrix_operations.ipynb
-├── project4_random_simulation.ipynb
+├── Numpy_mini_Project1.py / .ipynb
+├── Numpy_mini_Project2.py / .ipynb
+├── Numpy_mini_Project3.py / .ipynb
+├── Numpy_mini_Project4.py / .ipynb
+├── Numpy_mini_Project5.py / .ipynb
+├── Numpy_mini_Project6.py / .ipynb
+├── Numpy_mini_Project7.py / .ipynb
+├── Numpy_mini_Project8.py / .ipynb
+├── Numpy_mini_Project9.py / .ipynb
+├── Numpy_mini_Project10.py / .ipynb
+├── Numpy_mini_Project11.py / .ipynb
+├── Numpy_mini_Project12.py / .ipynb
+│
 └── README.md
 
 🧩 Projects Description
 
-🔹Project 1: Array Operations
-Creation of NumPy arrays
-Performing slicing and indexing
-Basic arithmetic operations on arrays
-Understanding array shapes and dimensions
+✅ Project 1: Array Creation & Basic Operations
+Creating NumPy arrays
+Performing basic arithmetic operations
 
-🔹 Project 2: Statistical Analysis
-Calculation of mean, median, variance, and standard deviation
-Applying aggregation functions on datasets
-Understanding data distribution using NumPy
+✅ Project 2: Array Indexing & Slicing
+Accessing elements using indexing
+Extracting subarrays
 
-🔹 Project 3: Matrix Operations
-Matrix creation and reshaping
-Matrix addition, subtraction, and multiplication
-Transpose and inverse operations
-Introduction to linear algebra concepts
+✅ Project 3: Reshaping Arrays
+Reshaping 1D arrays into 2D/3D arrays
+Understanding shape and dimensions
 
-🔹 Project 4: Random Data Simulation
-Generating random numbers using NumPy
-Simulating real-world scenarios
-Creating random datasets for analysis
-Understanding randomness and distributions
+✅ Project 4: Mathematical Operations
+Element-wise operations
+Using NumPy mathematical functions
+
+✅ Project 5: Aggregation Functions
+Sum, mean, median, min, max
+Statistical summaries of arrays
+
+✅ Project 6: Broadcasting
+Performing operations on arrays of different shapes
+Understanding broadcasting rules
+
+✅ Project 7: Random Number Generation
+Generating random integers and floats
+Simulating datasets
+
+✅ Project 8: Matrix Operations
+Matrix addition, subtraction, multiplication
+Dot product operations
+
+✅ Project 9: Linear Algebra Basics
+Determinant
+Inverse of matrices
+Eigenvalues (basic usage)
+
+✅ Project 10: Filtering & Conditional Selection
+Applying conditions on arrays
+Boolean indexing
+
+✅ Project 11: Sorting & Searching
+Sorting arrays
+Finding indices of elements
+
+✅ Project 12: Real-world Data Simulation
+Combining multiple NumPy concepts
+Simulating practical datasets and analysis
 
 ▶️ How to Run
 
