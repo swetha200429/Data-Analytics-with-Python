@@ -1,19 +1,23 @@
 # NumPy Mini Projects
 📌 Overview
+
 This repository contains multiple mini projects developed using NumPy, focusing on array operations, mathematical computations, and data manipulation techniques. Each project demonstrates practical applications of NumPy concepts learned during training.
 
 🎯 Objective
+
 To apply NumPy concepts in solving small problems
 To understand array operations and numerical computations
 To practice efficient data handling using vectorized operations
 To build a strong foundation for data science and analytics
 
 🛠️ Technologies Used
+
 Python 🐍
 NumPy 📊
 Jupyter Notebook / VS Code
 
 📚 Concepts Covered
+
 Array creation (array, arange, linspace)
 Indexing and slicing
 Reshaping arrays
@@ -24,6 +28,7 @@ Random number generation
 Matrix operations
 
 📁 Project Structure
+
 numpy-mini-projects/
 │
 ├── project1_array_operations.ipynb
@@ -33,7 +38,7 @@ numpy-mini-projects/
 └── README.md
 
 🧩 Projects Description
-🔹 Project 1: Array Operations
+🔹Project 1: Array Operations
 Creation of NumPy arrays
 Performing slicing and indexing
 Basic arithmetic operations on arrays
@@ -69,23 +74,28 @@ jupyter notebook
 Open and run any .ipynb file.
 
 📊 Sample Outputs
+
 Array transformations
 Statistical results
 Matrix computations
 Random data outputs
 
 🚀 Learning Outcomes
+
 Strong understanding of NumPy fundamentals
 Ability to manipulate arrays efficiently
 Improved problem-solving using vectorized operations
 Hands-on experience with numerical computations
 
 🔮 Future Improvements
+
 Add visualizations using Matplotlib
 Combine with Pandas for data analysis
 Work on real-world datasets
 Extend into complete data science projects
 
 👤 Author
-Name: Swetha R
+
+Name: 
+Swetha R
 Internship / Learning: LearnFlu
